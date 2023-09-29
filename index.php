@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include('/HTML/header.html');?>
+    <?php include('./header.html');?>
 
 </body>
 <script src="/JS/nav_menu.js"></script>
