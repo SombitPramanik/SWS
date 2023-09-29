@@ -1,0 +1,291 @@
+/* <<<<<<<<<<<<<<<<<< HOME >>>>>>>>>>>> */
+#home {
+    margin-top: 2em;
+    height: max-content;
+    width: 99%;
+    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
+    border-radius: 0.5em;
+    justify-self: center;
+    padding: 1em;
+}
+
+.section-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.emoji {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+/* <<<<<<<<<<<<<< End of Home >>>>>>>>>> */
+/* <<<<<<<<<<< Starting of Hosting section >>>>>>>>>>> */
+
+#hosting {
+    margin-top: 2em;
+    margin-right: 2em;
+    height: max-content;
+    width: 99%;
+    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
+    border-radius: 0.5em;
+    justify-self: center;
+    padding: 1em;
+}
+
+.hosting-section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.section-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.feature:hover {
+    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
+    z-index: 99;
+}
+
+.feature {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.feature-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.feature-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    font-size: 16px;
+    color: #666;
+}
+
+/*  <<< End of Hosting >>>> */
+/* <<<<<<<<<<< Starting of custom-hosting section >>>>>>>>>>> */
+
+#custom-hosting {
+    margin-top: 2em;
+    height: max-content;
+    width: 100%;
+    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
+    border-radius: 0.5em;
+    justify-self: center;
+    padding: 1em;
+}
+
+.custom-hosting-section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+
+.custom-hosting-section .section-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.custom-hosting-section .section-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.custom-hosting-features {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.custom-hosting-features .feature {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.custom-hosting-features .feature-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.custom-hosting-features .feature-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.custom-hosting-features .feature-description {
+    font-size: 16px;
+    color: #666;
+}
+
+/*  <<< End of custom-hosting >>>> */
+
+#typing-container {
+    font-size: 18px;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: capitalize;
+    padding: 10px;
+    width: 300px;
+    color: white;
+    height: 30px;
+    margin-left: 1em;
+}
+
+.re_button {
+    background-color: blue;
+
+    padding: 0.7em;
+    border-radius: 0.5em;
+}
+
+/* Styles for the popup */
+.popup {
+    border-radius: 1em;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+/* Styles for the button */
+.popup-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2em;
+}
+
+.popup {
+    text-transform: capitalize;
+}
+
+/* Styles for the blur effect */
+.blur-background {
+    filter: blur(1.2px);
+    /* Adjust the blur intensity as needed */
+}
+
+/*  <<<<<<<<<<<<<<<<<<< CONTACT PAGE   >>>>>>>>>>>>>>>>>>>>>> */
+#contact_us {
+    padding: 1.2em;
+    margin-top: 2em;
+    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
+    border-radius: 0.5em;
+}
+
+/* New Style */
+
+/* Styles for Payment Form Section */
+
+.payment-form-section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+
+.payment-form-section .section-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.payment-form-section .section-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.payment-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.payment-form button.payment-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-form button.payment-button:hover {
+    background-color: #222;
+}

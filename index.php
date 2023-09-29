@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/responsive.css">
+    <link rel="stylesheet" href="/CSS/main.css">
     <!-- <link rel="stylesheet" href="/CSS/debug.css"> -->
     <!-- This css is only for the DeBugging  -->
 </head>
