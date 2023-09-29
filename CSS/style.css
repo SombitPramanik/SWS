@@ -37,11 +37,13 @@
     text-transform: capitalize;
     text-decoration: none;
     list-style-type: none;
-    background-color: var(--dark-background-color);
     color: var(--dark-main-text-color);
     background-size: cover;
     background-position: center;
     font-size: 1rem;
+}
+body{
+    background-color: var(--dark-background-color);
 }
 
 a {
