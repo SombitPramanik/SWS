@@ -29,5 +29,6 @@
 
 </body>
 <script src="/JS/nav_menu.js"></script>
+<script src="/JS/typwritr.js"></script>
 
 </html>
