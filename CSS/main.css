@@ -186,42 +186,6 @@
     border-radius: 0.5em;
 }
 
-/* Styles for the popup */
-.popup {
-    border-radius: 1em;
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-}
-
-/* Styles for the button */
-.popup-button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 0.2em;
-}
-
-.popup {
-    text-transform: capitalize;
-}
-
-/* Styles for the blur effect */
-.blur-background {
-    filter: blur(1.2px);
-    /* Adjust the blur intensity as needed */
-}
-
 /*  <<<<<<<<<<<<<<<<<<< CONTACT PAGE   >>>>>>>>>>>>>>>>>>>>>> */
 #contact_us {
     padding: 1.2em;
