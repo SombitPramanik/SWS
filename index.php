@@ -1,4 +1,5 @@
-<php
-include ('/HTML/index.html');
+<?php
+include ('/HTML/header.html');
+include ('./header.html')
 
 ?>
