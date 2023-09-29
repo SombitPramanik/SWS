@@ -25,6 +25,7 @@
 
 <body>
     <?php include('./header.html'); ?>
+    <br><br>
     <?php include('./main.html'); ?>
 
 </body>
