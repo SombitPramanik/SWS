@@ -1,0 +1,56 @@
+@media screen and (min-width:300px) and (max-width:480px) {
+
+    /* For Small Phone to medium phones  */
+    .dp_bar,
+    .dropdown {
+        display: block;
+    }
+
+    .links,
+    .login {
+        display: none;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:426px) {
+    .dropdown {
+        right: 4rem !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* Specifically Target the small Screen Phones  */
+
+    .dropdown {
+        right: 0.55rem !important;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    /* For Medium to Tablet Screen size */
+    .dp_bar,
+    .dropdown {
+        display: block;
+        left: 2rem;
+        width: unset;
+
+    }
+
+    .links,
+    .login {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:769px) {
+
+    /* for Extra Large Screen */
+    .toggle_btn,
+    .dropdown {
+        display: none;
+    }
+
+}
