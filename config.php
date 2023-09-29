@@ -1,3 +1,3 @@
 <?php
-echo 'Page connected with config.php';
+// echo 'Page connected with config.php';
 ?>
