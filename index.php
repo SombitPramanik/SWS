@@ -1,5 +1,5 @@
 <?php
-require ('/PHP/config.php');
+include ('/PHP/config.php');
 include ('./header.html');
 
 ?>
