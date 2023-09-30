@@ -1,255 +1,87 @@
-/* <<<<<<<<<<<<<<<<<< HOME >>>>>>>>>>>> */
-#home {
-    margin-top: 2em;
-    height: max-content;
-    width: 99%;
-    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
-    border-radius: 0.5em;
-    justify-self: center;
-    padding: 1em;
-}
-
-.section-heading {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.section-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 40px;
-}
-
-.cta-button {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #333;
-    color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+@import "/CSS/style.css";
 
 .emoji {
     font-size: 36px;
     margin-right: 10px;
 }
 
-/* <<<<<<<<<<<<<< End of Home >>>>>>>>>> */
-/* <<<<<<<<<<< Starting of Hosting section >>>>>>>>>>> */
-
-#hosting {
-    margin-top: 2em;
-    margin-right: 2em;
-    height: max-content;
-    width: 99%;
-    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
-    border-radius: 0.5em;
-    justify-self: center;
-    padding: 1em;
+#typing-container {
+    margin: 10px;
+    color: var(--dark-all-text-color);
+    height: 20px;
 }
 
-.hosting-section {
-    text-align: center;
-    padding: 100px 0;
-    background-color: #fff;
+#home,
+#hosting,
+#custom-hosting,
+#payment,
+#server,
+#storage {
+    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
+    /* border: 2px solid red; */
+    padding: 1rem;
+    margin: .5em;
+    border-radius: 20px;
 }
 
 .section-heading {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: var(--dark-main-text-color);
+
 }
 
-.section-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 40px;
+.section-description,
+.about-description {
+    color: var(--dark-all-text-color);
+    margin-bottom: 5px;
+    margin-left: 15px;
 }
 
-.features-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 40px;
-}
-
-.feature:hover {
+.btn {
+    background-color: var(--dark-primary-button);
+    color: whitesmoke;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
     box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
-    z-index: 99;
+    margin: 1em;
+}
+
+.custom-hosting-features,
+.development-servers-features,
+.features-container,
+.storage-server-features {
+    display: flex;
+    /* max-width: 80%; */
+    /* flex-direction: column; */
+    overflow: scroll;
+    max-width: 100%;
+    /* border: 2px solid red !important; */
+
+}
+@media screen and (max-width: 768px) {
+    
+.custom-hosting-features,
+.development-servers-features,
+.features-container,
+.storage-server-features{
+    flex-direction: column;
+}
+.feature{
+    max-width: 100% !important;
+    height: max-content !important;
+    margin-top: 5px !important;
+}
 }
 
 .feature {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ddd;
-    margin: 0 20px;
-    border-radius: 10px;
-}
-
-.feature-icon {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.feature-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.feature-description {
-    font-size: 16px;
-    color: #666;
-}
-
-/*  <<< End of Hosting >>>> */
-/* <<<<<<<<<<< Starting of custom-hosting section >>>>>>>>>>> */
-
-#custom-hosting {
-    margin-top: 2em;
+    border: 2px solid whitesmoke;
+    margin: 5px;
     height: max-content;
-    width: 100%;
-    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
-    border-radius: 0.5em;
-    justify-self: center;
-    padding: 1em;
-}
-
-.custom-hosting-section {
-    text-align: center;
-    padding: 100px 0;
-    background-color: #f5f5f5;
-}
-
-.custom-hosting-section .section-heading {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.custom-hosting-section .section-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 40px;
-}
-
-.custom-hosting-features {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 40px;
-}
-
-.custom-hosting-features .feature {
-    width: 30%;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ddd;
-    margin: 0 20px;
-    border-radius: 10px;
-}
-
-.custom-hosting-features .feature-icon {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.custom-hosting-features .feature-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.custom-hosting-features .feature-description {
-    font-size: 16px;
-    color: #666;
-}
-
-/*  <<< End of custom-hosting >>>> */
-
-#typing-container {
-    font-size: 18px;
-    font-family: monospace;
-    white-space: nowrap;
+    max-width: 30%;
     overflow: hidden;
-    text-transform: capitalize;
-    padding: 10px;
-    width: 300px;
-    color: white;
-    height: 30px;
-    margin-left: 1em;
-}
-
-.re_button {
-    background-color: blue;
-
-    padding: 0.7em;
-    border-radius: 0.5em;
-}
-
-/*  <<<<<<<<<<<<<<<<<<< CONTACT PAGE   >>>>>>>>>>>>>>>>>>>>>> */
-#contact_us {
-    padding: 1.2em;
-    margin-top: 2em;
-    box-shadow: 0px 4px 8px 2px rgba(62, 219, 167, 0.5);
-    border-radius: 0.5em;
-}
-
-/* New Style */
-
-/* Styles for Payment Form Section */
-
-.payment-form-section {
-    text-align: center;
-    padding: 100px 0;
-    background-color: #f5f5f5;
-}
-
-.payment-form-section .section-heading {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.payment-form-section .section-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 40px;
-}
-
-.payment-form {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
+    padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-.payment-form label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-.payment-form input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-.payment-form button.payment-button {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-.payment-form button.payment-button:hover {
-    background-color: #222;
 }
