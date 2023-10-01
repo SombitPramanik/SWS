@@ -10,15 +10,15 @@
     <meta name="author" content="Sombit Pramanik">
     <meta property="og:title" content="Sombit Web Services">
     <meta property="og:description" content="Discover reliable server and hosting solutions tailored to your needs at Sombit Web Services. We specialize in delivering cutting-edge hosting services, including shared, VPS, and dedicated hosting, ensuring your website's optimal performance. Take advantage of our expertise in custom server configurations, allowing you to build a server environment that perfectly matches your business requirements. Additionally, we offer advanced storage solutions, empowering you with scalable and secure data management. Explore our range of cost-effective plans and enhance your online presence with seamless server solutions.">
-    <meta property="og:image" content="/IMG/sws.png">
+    <meta property="og:image" content="./sws.png">
     <meta property="og:url" content="https://sombti-server.online">
     <meta property="og:type" content="website">
-    <link rel="icon" href="/IMG/sws.ico" type="image/x-icon">
+    <link rel="icon" href="./sws.ico" type="image/x-icon">
     <title>Sombit Web Services</title>
 
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/responsive.css">
-    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./main.css">
     <!-- <link rel="stylesheet" href="/CSS/debug.css"> -->
     <!-- This css is only for the DeBugging  -->
 </head>
@@ -29,7 +29,7 @@
     <?php include('./main.html'); ?>
 
 </body>
-<script src="/JS/nav_menu.js"></script>
-<script src="/JS/typwritr.js"></script>
+<script src="./nav_menu.js"></script>
+<script src="./typwritr.js"></script>
 
 </html>
